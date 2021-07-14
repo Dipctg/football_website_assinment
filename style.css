@@ -1,0 +1,199 @@
+/* common things */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+
+/* header style */
+
+header{
+    background-color: #2D25A0;
+}
+.header_elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_titels{
+    margin: 121px 10px 169px 156px;
+}
+#header_titel{
+    font-size: 64px;
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+}
+#button_style{
+    margin-top: 27;
+    padding: 10px 24px 10px 24px;
+}
+.header_poster{
+    margin: 153px 140px 86px 0;
+}
+.header_poster img{
+    width: 556.01px;
+    height: 438px;
+    object-fit: contain;
+
+}
+.header_poster:hover {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    transition: transform 2s ease-out;
+}
+
+/* main style */
+
+.player_details{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 30px;
+  margin: 70px 210px 50px 307px;
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+}
+
+
+
+.player img{
+    width: 300px;
+    height: 256px;
+    margin: 15px 15px; 
+}
+.player_name{
+    color: #18191F;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 15px 15px 10px 15px;
+}
+.player_history{
+    color: #6C6C6C;
+    margin: 0 15px 33px;
+}
+
+
+ 
+    /* extra work */
+ 
+
+
+    /* news link */
+
+    
+
+#news_link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 111px;
+    background-color: #ade649e3;
+    margin: 0 329px 5px 304px;
+    box-shadow: 0px 8px 10px rgb(0 0 0 / 28%);
+    border-radius: 86px;
+}
+     
+
+
+
+
+    /* login_form */
+
+
+
+
+
+
+
+
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+#login_title{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #d2259dba;
+    box-shadow: 0px 8px 10px rgb(0 0 0 / 28%);
+    border-radius: 21px;
+}
+
+
+.login_form input,button {
+    font-size: 1.3em;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid lightblue;
+}
+.login_form button{
+    background-color: lightseagreen;
+    color: lightslategray;
+}
+
+
+/* --------------
+Footer 
+----------------*/
+footer{
+    width: 483.87px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 682px 60px;    
+}
+.footer_img img{
+    width: 483.87px;
+    height: 110px;
+}
+#footer_media_icons{
+    display: flex;
+}
+
+.footer_media_icon{
+    margin: 0px 14px;
+    background-color: gray;
+    height: 32px;
+    width: 32px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
